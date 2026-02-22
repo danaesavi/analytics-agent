@@ -71,7 +71,7 @@ def clean_airbnb():
     # --- Save ---
     df.to_parquet(OUT_PATH, index=False)
 
-    print("✅ Clean dataset saved to:", OUT_PATH)
+    print("Clean dataset saved to:", OUT_PATH)
     print("Rows:", len(df))
     print("Columns:", list(df.columns))
 
