@@ -1,0 +1,16 @@
+- id: q1
+  question: "Top 5 neighbourhoods by average price"
+- id: q2
+  question: "Top 5 neighbourhoods by median price"
+- id: q3
+  question: "Compare average price for superhosts vs non-superhosts"
+- id: q4
+  question: "Top 5 room types by average price"
+- id: q5
+  question: "Which neighbourhoods have the highest occupancy proxy?"
+- id: q6
+  question: "Which neighbourhoods have the highest revenue proxy?"
+- id: q7
+  question: "Top 5 neighbourhoods by average review score"
+- id: q8
+  question: "What is the price trend based on last_review month?"  # optional if you add time aggregation

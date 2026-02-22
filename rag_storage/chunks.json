@@ -1,0 +1,82 @@
+[
+  {
+    "title": "average_price",
+    "text": "## average_price\nDefinition: mean(price)\nType: aggregation\nDefault aggregation: mean",
+    "source": "metrics.md"
+  },
+  {
+    "title": "occupancy_proxy",
+    "text": "## occupancy_proxy\nDefinition: (30 - availability_30) / 30\nType: derived_metric\nDefault aggregation: mean",
+    "source": "metrics.md"
+  },
+  {
+    "title": "revenue_proxy",
+    "text": "## revenue_proxy\nDefinition: price * (30 - availability_30)\nType: derived_metric\nDefault aggregation: sum",
+    "source": "metrics.md"
+  },
+  {
+    "title": "superhost_premium",
+    "text": "## superhost_premium\nDefinition: mean(price | is_superhost=True) - mean(price | is_superhost=False)\nType: comparison",
+    "source": "metrics.md"
+  },
+  {
+    "title": "review_activity",
+    "text": "## review_activity\nDefinition: number_of_reviews or growth in number_of_reviews over time\nType: aggregation\nDefault aggregation: sum",
+    "source": "metrics.md"
+  },
+  {
+    "title": "listing_id",
+    "text": "## listing_id\nUnique identifier for listing.",
+    "source": "schema.md"
+  },
+  {
+    "title": "city",
+    "text": "## city\nCity of listing (constant: copenhagen).",
+    "source": "schema.md"
+  },
+  {
+    "title": "neighbourhood",
+    "text": "## neighbourhood\nCleaned Airbnb neighbourhood name.",
+    "source": "schema.md"
+  },
+  {
+    "title": "room_type",
+    "text": "## room_type\nType of listing:\n- Entire home/apt\n- Private room\n- Shared room",
+    "source": "schema.md"
+  },
+  {
+    "title": "price",
+    "text": "## price\nNightly listing price in DKK.",
+    "source": "schema.md"
+  },
+  {
+    "title": "availability_30",
+    "text": "## availability_30\nNumber of days the listing is available in the next 30 days.",
+    "source": "schema.md"
+  },
+  {
+    "title": "number_of_reviews",
+    "text": "## number_of_reviews\nTotal number of reviews the listing has received.",
+    "source": "schema.md"
+  },
+  {
+    "title": "review_score",
+    "text": "## review_score\nOverall review rating (0\u20135 scale). Missing if no reviews.",
+    "source": "schema.md"
+  },
+  {
+    "title": "last_review",
+    "text": "## last_review\nDate of most recent review.",
+    "source": "schema.md"
+  },
+  {
+    "title": "minimum_nights",
+    "text": "## minimum_nights\nMinimum stay requirement in nights.",
+    "source": "schema.md"
+  },
+  {
+    "title": "is_superhost",
+    "text": "## is_superhost\nBoolean indicating whether the host is a superhost.",
+    "source": "schema.md"
+  }
+]

@@ -1,0 +1,9 @@
+id,question,status,latency_ms,output_dir,error
+q1,Top 5 neighbourhoods by average price,ok,561,outputs/20260222_172906,
+q2,Top 5 neighbourhoods by median price,ok,64,outputs/20260222_172906,
+q3,Compare average price for superhosts vs non-superhosts,ok,50,outputs/20260222_172906,
+q4,Top 5 room types by average price,ok,53,outputs/20260222_172906,
+q5,Which neighbourhoods have the highest occupancy proxy?,ok,55,outputs/20260222_172906,
+q6,Which neighbourhoods have the highest revenue proxy?,ok,62,outputs/20260222_172906,
+q7,Top 5 neighbourhoods by average review score,ok,248,outputs/20260222_172906,
+q8,What is the price trend based on last_review month?,ok,57,outputs/20260222_172907,
