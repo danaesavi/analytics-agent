@@ -19,7 +19,7 @@ def main():
     results = executor.execute(plan)
     out_dir = reporter.generate(plan, results)
 
-    print(f"✅ Report saved to: {out_dir}")
+    print(f"Report saved to: {out_dir}")
 
 
 if __name__ == "__main__":
