@@ -14,3 +14,5 @@
   question: "Top 5 neighbourhoods by average review score"
 - id: q8
   question: "What is the price trend based on last_review month?"  # optional if you add time aggregation
+- id: q9
+  question: "Which room types have the highest occupancy proxy?"  
