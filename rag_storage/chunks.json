@@ -6,7 +6,7 @@
   },
   {
     "title": "occupancy_proxy",
-    "text": "## occupancy_proxy\nDefinition: (30 - availability_30) / 30\nType: derived_metric\nDefault aggregation: mean",
+    "text": "## occupancy_proxy\nDefinition: (30 - availability_30) / 30\nDefault aggregation: mean",
     "source": "metrics.md"
   },
   {

@@ -7,7 +7,6 @@ Default aggregation: mean
 
 ## occupancy_proxy
 Definition: (30 - availability_30) / 30
-Type: derived_metric
 Default aggregation: mean
 
 ## revenue_proxy
